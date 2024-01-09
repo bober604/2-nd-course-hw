@@ -99,4 +99,35 @@
 }
 .game_link {
   text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    height: 735px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header_sag {
+    padding-top: 238px;
+    font-size: 32px;
+    width: 343px;
+    text-align: center;
+  }
+  .header_par {
+    width: 343px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .header_but {
+    margin-top: 32px;
+  }
+  .game__box {
+    width: 343px;
+  }
 }/*# sourceMappingURL=index.css.map */
