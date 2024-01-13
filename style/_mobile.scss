@@ -22,6 +22,24 @@
         }}
     
     .game__box {
-        width: 343px;
-    }
+        width: 343px;}
+
+    .section-2 {
+        height: 518px;
+        gap: 64px;
+        padding-top: 51px;
+        padding-bottom: 85px;
+        &__time {
+            padding-top: 0px;
+            align-items: center;
+            &_sag {
+                text-align: center;
+                font-size: 32px;}
+            &_par {
+                text-align: center;
+                font-size: 14px;
+                line-height: 22px;}}
+        &_img {
+            width: 344px;
+            height: 236px;}}
 }
