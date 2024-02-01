@@ -100,18 +100,17 @@
 
 
 
-// function getSeason(month) {  // Задание 8
-//     if (month >= 3 && month <= 5) {
-//         return "Весна";
-//     } else if (month >= 6 && month <= 8) {
-//         return "Лето";
-//     } else if (month >= 9 && month <= 11) {
-//         return "Осень";
-//     } else if (month == 12 || month == 1 || month == 2) {
-//         return "Зима";
-//     } else {
-//         return "Неизвестное значение";
-//     }
-// }
-
-// console.log(getSeason(prompt('Введите номер месяца.')));
+function getSeason() {  // Задание 8
+    let month = prompt('Введите номер месяца')
+    if (month >= 3 && month <= 5) {
+        return "Весна";
+    } else if (month >= 6 && month <= 8) {
+        return "Лето";
+    } else if (month >= 9 && month <= 11) {
+        return "Осень";
+    } else if (month == 12 || month == 1 || month == 2) {
+        return "Зима";
+    } else {
+        return "Неизвестное значение";
+    }
+}
