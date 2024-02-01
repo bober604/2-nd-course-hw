@@ -10,17 +10,12 @@
 
 
 
-// function num() { // Задание 2
-//     let personNum = prompt('Введите число');
-
-//     if (personNum % 2 == 0) {
-//         alert('Число чётное');
-//     } else {
-//         alert('Число нечётное');
-//     }
+// let personNum = prompt('Введите число'); // Задание 2
+// function num(personNum) {
+//     return personNum % 2 === 0 ? 'Число чётное' : 'Число нечётное'
 // }
 
-// num()
+// console.log(num(personNum));
 
 
 
@@ -46,12 +41,10 @@
 //     let personAge = Number(prompt('Сколько вам лет?'));
 //     if (personAge < 0) {
 //         alert('Вы ввели неправильное значение.');
+//     } else if (personAge >= 0 && personAge <= 12) {
+//         alert('Привет, друг!');
 //     } else {
-//         if (personAge >= 0 && personAge <= 12) {
-//             alert('Привет, друг!');
-//         } else {
-//             alert('Добро пожаловать!');
-//         }
+//         alert('Добро пожаловать!');
 //     }
 // }
 
@@ -73,8 +66,7 @@
 
 
 // function threeNumber() {  // Задание 6
-//     let num = prompt('Введите число');
-//     num = Number(num);
+//     let num = Number(prompt('Введите число'));
 //     if (isNaN(num)) {
 //         return 'Переданный параметр не является числом';
 //     } else {
